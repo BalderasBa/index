@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BalderasBa/index.git/static/css/main.d377973d.css",
+    "main.js": "/BalderasBa/index.git/static/js/main.b9c89c80.js",
+    "index.html": "/BalderasBa/index.git/index.html",
+    "main.d377973d.css.map": "/BalderasBa/index.git/static/css/main.d377973d.css.map",
+    "main.b9c89c80.js.map": "/BalderasBa/index.git/static/js/main.b9c89c80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d377973d.css",
+    "static/js/main.b9c89c80.js"
+  ]
+}
