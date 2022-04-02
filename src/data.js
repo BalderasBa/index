@@ -11,8 +11,10 @@ const about = {
   description: "& Graphic designer with over 4 years of experience.",
   resume: "https://example.com",
   social: {
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/yehya-hallousse-33644316a",
     github: "https://github.com",
+    twitter: "https://twitter.com/Ba_Lder_As",
+    behance: "https://www.behance.net/hallousseyb648",
   },
 };
 
@@ -25,6 +27,7 @@ const projects = [
     stack: ["React", "Styled Components", "Redux"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "",
   },
   {
     name: "Tesla Clone",
@@ -32,6 +35,7 @@ const projects = [
     stack: ["React", "Styled Components", "Redux/Toolkit"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/10SvmTH/tesla.jpg",
   },
   {
     name: "Memory Card",
@@ -39,13 +43,23 @@ const projects = [
     stack: ["React", "Context"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "",
   },
   {
-    name: "Ecommerce with Admin Dashboard",
+    name: "Ecommerce",
     description: "Description here",
     stack: ["React", "Styled Components", "Redux/Toolkit"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/10SvmTH/tesla.jpg",
+  },
+  {
+    name: "Admin Dashboard",
+    description: "Description here",
+    stack: ["React", "Styled Components", "Redux/Toolkit"],
+    sourceCode: "https://github.com",
+    livePreview: "https://github.com",
+    backgroundImg: "",
   },
   {
     name: "JS Ecommerce",
@@ -53,6 +67,7 @@ const projects = [
     stack: ["JavaScript", "SASS"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/fDcWzsM/jsecommerce.jpg",
   },
   {
     name: "Quiz Game",
@@ -60,6 +75,15 @@ const projects = [
     stack: ["JavaScript", "CSS3", "HTML5"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "",
+  },
+  {
+    name: "Portfolio",
+    description: "Description here",
+    stack: ["SCSS", "HTML5"],
+    sourceCode: "https://github.com",
+    livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/QnRxyg3/portfolio.jpg",
   },
   {
     name: "Movies",
@@ -67,6 +91,7 @@ const projects = [
     stack: ["HTML5", "CSS3", "JS"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/KrVFDw0/movies.jpg",
   },
   {
     name: "YSound",
@@ -74,13 +99,23 @@ const projects = [
     stack: ["HTML5", "CSS3", "JS"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/QKVXQvR/ysounds.jpg",
+  },
+  {
+    name: "Rym Gym",
+    description: "Description here",
+    stack: ["HTML5", "BootStrap 5"],
+    sourceCode: "https://github.com",
+    livePreview: "https://github.com",
+    backgroundImg: "https://ibb.co/R4R5321",
   },
   {
     name: "Template 2",
     description: "Description here",
     stack: ["HTML5", "CSS3", "JS"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    sourceCode: "https://github.com/BalderasBa/template2",
+    livePreview: "https://balderasba.github.io/template2/",
+    backgroundImg: "https://i.ibb.co/8c2kj2p/template2.jpg",
   },
   {
     name: "Ystore",
@@ -88,13 +123,23 @@ const projects = [
     stack: ["WordPress", "WooComerce"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/RTzGprL/ystore.jpg",
   },
   {
-    name: "Ystore multivendor",
+    name: "Metabook",
+    description: "Description here",
+    stack: ["HTML5", "CSS3", "JS"],
+    sourceCode: "https://github.com",
+    livePreview: "https://github.com",
+    backgroundImg: "https://i.ibb.co/pR1DVWb/metabook.jpg",
+  },
+  {
+    name: "Ystore Multivendor",
     description: "Comming soon",
     stack: ["WordPress", "WooComerce"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "",
   },
   {
     name: "Chat Site",
@@ -102,14 +147,16 @@ const projects = [
     stack: ["Reactjs"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
+    backgroundImg: "",
   },
 ];
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  "HTML",
-  "CSS",
+  "HTML5",
+  "CSS3",
+  "BootStrap5",
   "JavaScript",
   "React",
   "Redux",
@@ -122,6 +169,11 @@ const skills = [
   "WordPress",
   "Elementor",
   "WooComerce",
+  "العربية",
+  "English",
+  "Français",
+  "Problem Solving",
+  "Problem Solving",
 ];
 
 const contact = {

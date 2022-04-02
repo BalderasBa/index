@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { about } from "../../portfolio";
+import { about } from "../../data";
 
 const Footer = () => (
   <footer className="footer">
