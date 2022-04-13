@@ -25,7 +25,7 @@ const ProjectContainer = ({ project }) => (
         aria-label="source code"
         className="link link--icon"
       >
-        <GitHubIcon />
+        <GitHubIcon fontSize="large"/>
       </a>
     )}
 
@@ -35,7 +35,7 @@ const ProjectContainer = ({ project }) => (
         aria-label="live preview"
         className="link link--icon"
       >
-        <LaunchIcon />
+        <LaunchIcon fontSize="large"/>
       </a>
     )}
   </div>

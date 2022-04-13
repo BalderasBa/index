@@ -64,7 +64,6 @@ const Navbar = () => {
       >
         {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
-
       <button
         type="button"
         onClick={toggleNavList}

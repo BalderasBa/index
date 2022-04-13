@@ -9,26 +9,18 @@ const about = {
   name: "Hallousse Yehya",
   role: "Front End Developper",
   description: "& Graphic designer with over 4 years of experience.",
-  resume: "https://example.com",
+  // resume: "https://example.com",
   social: {
     linkedin: "https://www.linkedin.com/in/yehya-hallousse-33644316a",
     github: "https://github.com",
     twitter: "https://twitter.com/Ba_Lder_As",
-    behance: "https://www.behance.net/hallousseyb648",
   },
 };
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  {
-    name: "LinkedIn Clone",
-    description: "Description here",
-    stack: ["React", "Styled Components", "Redux"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-    backgroundImg: "",
-  },
+
   {
     name: "Tesla Clone",
     description: "Description here",
@@ -38,12 +30,12 @@ const projects = [
     backgroundImg: "https://i.ibb.co/10SvmTH/tesla.jpg",
   },
   {
-    name: "Memory Card",
+    name: "LinkedIn Clone",
     description: "Description here",
-    stack: ["React", "Context"],
+    stack: ["React", "Styled Components", "Redux"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
-    backgroundImg: "",
+    backgroundImg: "https://i.ibb.co/s6BwCdT/linkedin1.jpg",
   },
   {
     name: "Ecommerce",
@@ -51,15 +43,15 @@ const projects = [
     stack: ["React", "Styled Components", "Redux/Toolkit"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
-    backgroundImg: "https://i.ibb.co/10SvmTH/tesla.jpg",
+    backgroundImg: "https://i.ibb.co/s3kBJsb/eshop.jpg",
   },
   {
     name: "Admin Dashboard",
     description: "Description here",
     stack: ["React", "Styled Components", "Redux/Toolkit"],
-    sourceCode: "https://github.com",
+    // sourceCode: "https://github.com",
     livePreview: "https://github.com",
-    backgroundImg: "",
+    backgroundImg: "https://i.ibb.co/jgJ4KF6/admindashboard.jpg",
   },
   {
     name: "JS Ecommerce",
@@ -70,12 +62,12 @@ const projects = [
     backgroundImg: "https://i.ibb.co/fDcWzsM/jsecommerce.jpg",
   },
   {
-    name: "Quiz Game",
+    name: "Ystore",
     description: "Description here",
-    stack: ["JavaScript", "CSS3", "HTML5"],
+    stack: ["WordPress", "WooComerce"],
     sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-    backgroundImg: "",
+    livePreview: "https://dev-yehyaecommerce.pantheonsite.io/",
+    backgroundImg: "https://i.ibb.co/RTzGprL/ystore.jpg",
   },
   {
     name: "Portfolio",
@@ -102,28 +94,12 @@ const projects = [
     backgroundImg: "https://i.ibb.co/QKVXQvR/ysounds.jpg",
   },
   {
-    name: "Rym Gym",
-    description: "Description here",
-    stack: ["HTML5", "BootStrap 5"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-    backgroundImg: "https://ibb.co/R4R5321",
-  },
-  {
     name: "Template 2",
     description: "Description here",
     stack: ["HTML5", "CSS3", "JS"],
     sourceCode: "https://github.com/BalderasBa/template2",
     livePreview: "https://balderasba.github.io/template2/",
     backgroundImg: "https://i.ibb.co/8c2kj2p/template2.jpg",
-  },
-  {
-    name: "Ystore",
-    description: "Description here",
-    stack: ["WordPress", "WooComerce"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-    backgroundImg: "https://i.ibb.co/RTzGprL/ystore.jpg",
   },
   {
     name: "Metabook",
@@ -134,22 +110,23 @@ const projects = [
     backgroundImg: "https://i.ibb.co/pR1DVWb/metabook.jpg",
   },
   {
-    name: "Ystore Multivendor",
-    description: "Comming soon",
-    stack: ["WordPress", "WooComerce"],
+    name: "Memory Card Game",
+    description: "Description here",
+    stack: ["React", "Context"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
-    backgroundImg: "",
+    backgroundImg: "https://i.ibb.co/jrNpgFX/momorygame.jpg",
   },
   {
-    name: "Chat Site",
-    description: "Comming soon",
-    stack: ["Reactjs"],
+    name: "Quiz Game OOP",
+    description: "Description here",
+    stack: ["JavaScript", "CSS3", "HTML5"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
-    backgroundImg: "",
+    backgroundImg: "https://i.ibb.co/DCFwdNR/quizoop.jpg",
   },
 ];
+
 
 const skills = [
   // skills can be added or removed
@@ -157,6 +134,8 @@ const skills = [
   "HTML5",
   "CSS3",
   "BootStrap5",
+  "Json",
+  "AJAX",
   "JavaScript",
   "React",
   "Redux",
@@ -165,7 +144,6 @@ const skills = [
   "CI/CD",
   "Adobe Ai",
   "Adobe Ps",
-  "Visual Basic",
   "WordPress",
   "Elementor",
   "WooComerce",
@@ -173,12 +151,16 @@ const skills = [
   "English",
   "Français",
   "Problem Solving",
-  "Problem Solving",
+  "DOM Manipulation",
+  "Clean Code",
+  "DeadLine Respect",
 ];
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: "hallousse.yehya@gmail.com",
+  email: "mailto:hallousse.yehya@gmail.com",
+  messenger: "https://m.me/100008144798570",
+  whatsapp: "https://api.whatsapp.com/?phone=+213776920565 ",
 };
 
 export { header, about, projects, skills, contact };
