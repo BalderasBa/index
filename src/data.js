@@ -7,12 +7,13 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Hallousse Yehya",
-  role: "Front End Developper",
-  description: "& Graphic designer with over 4 years of experience.",
+  role: "Frontend Dev & Graphic design",
+  description:
+    "Meticulous web developer with over 4 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach. W3C certified. Implemented new responsive website approach which increased mobile traffic.",
   // resume: "https://example.com",
   social: {
     linkedin: "https://www.linkedin.com/in/yehya-hallousse-33644316a",
-    github: "https://github.com",
+    github: "https://github.com/BalderasBa",
     twitter: "https://twitter.com/Ba_Lder_As",
   },
 };
@@ -54,13 +55,13 @@ const projects = [
     name: "JS Ecommerce",
     description: "Description here",
     stack: ["JavaScript", "SASS"],
-    livePreview: "https://balderasba.github.io/JSecommerce/",
+    livePreview: "https://balderasba.github.io/JSecommerce/src/signup.html",
     backgroundImg: "https://i.ibb.co/fDcWzsM/jsecommerce.jpg",
   },
   {
     name: "Ystore",
     description: "Description here",
-    stack: ["WordPress", "WooComerce"],
+    stack: ["WordPress", "WooComerce", "Elememtor"],
     sourceCode: "https://github.com",
     livePreview: "https://dev-yehyaecommerce.pantheonsite.io/",
     backgroundImg: "https://i.ibb.co/RTzGprL/ystore.jpg",
@@ -81,14 +82,14 @@ const projects = [
   },
   {
     name: "YSound",
-    description: "Description here",
+    description: "Cloning for soundsnap.com (home page)",
     stack: ["HTML5", "CSS3", "JS"],
-    livePreview: "https://balderasba.github.io/YSound/",
+    livePreview: "https://balderasba.github.io/Ysound/",
     backgroundImg: "https://i.ibb.co/QKVXQvR/ysounds.jpg",
   },
   {
     name: "Template 2",
-    description: "Description here",
+    description: "PDS To HTML One Page website",
     stack: ["HTML5", "CSS3", "JS"],
     livePreview: "https://balderasba.github.io/template2/",
     backgroundImg: "https://i.ibb.co/8c2kj2p/template2.jpg",
@@ -97,7 +98,7 @@ const projects = [
     name: "Metabook",
     description: "Description here",
     stack: ["HTML5", "CSS3", "JS"],
-    livePreview: "https://balderasba.github.io/YSound",
+    livePreview: "https://balderasba.github.io/metabook/",
     backgroundImg: "https://i.ibb.co/pR1DVWb/metabook.jpg",
   },
   {
@@ -109,8 +110,8 @@ const projects = [
   },
   {
     name: "Quiz Game OOP",
-    description: "Description here",
-    stack: ["JavaScript", "CSS3", "HTML5"],
+    description: "Quiz Game using JavaScript oriented object programming",
+    stack: ["OOP", "JavaScript", "CSS3", "HTML5"],
     // sourceCode: "https://github.com",
     livePreview: "https://balderasba.github.io/quizgameoop/",
     backgroundImg: "https://i.ibb.co/DCFwdNR/quizoop.jpg",
@@ -131,6 +132,7 @@ const skills = [
   "Redux",
   "SASS",
   "Git & GitHub",
+  "Rest API",
   "CI/CD",
   "Adobe Ai",
   "Adobe Ps",
@@ -144,6 +146,7 @@ const skills = [
   "DOM Manipulation",
   "Clean Code",
   "DeadLine Respect",
+  "Serious, rigorous, autonomous & cooperative",
 ];
 
 const contact = {
