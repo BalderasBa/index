@@ -3,7 +3,7 @@ import App from "./App";
 import { ThemeProvider } from "./contexts/theme";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import "./i18nextConf";
 render(
   <ThemeProvider>
     <BrowserRouter>

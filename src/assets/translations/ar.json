@@ -1,0 +1,25 @@
+{
+  "navbar.logo": "ي.ح",
+  "navbar.skills": "مهارات",
+  "navbar.portfolio": "مَلَفّ",
+  "navbar.contact": "اتصال",
+
+  "about.h1": "مرحباً ، أنا حلوس يحيى",
+  "about.h2": "مصمم الواجهة الأمامية لتطوير وتصميم الجرافيك",
+  "about.p": "مطور ويب دقيق يتمتع بخبرة تزيد عن 4 سنوات في الواجهة الأمامية وشغف لتصميم مواقع الويب سريع الاستجابة ويؤمن بشدة بنهج الجوّال أولاً. W3C معتمد. تم تنفيذ نهج موقع ويب جديد سريع الاستجابة مما أدى إلى زيادة حركة مرور الهاتف المحمول.",
+
+  "projects": "المشاريع",
+  "skills": "مهارات",
+  "contact": "اتصال",
+  "contact.get": "ابق على تواصل معنا",
+  "contact.button": "ارسل رسالة",
+  "contact.email": "بريد الالكتروني",
+  "contact.email.adress": "hallousse.yehya@gmail.com",
+  "contact.whatsapp": "الواتس اب",
+  "contact.form.place1": "اسمك الكامل",
+  "contact.form.place2": "عنوان بريدك الإلكتروني",
+  "contact.form.place3": "رسالتك",
+
+  "footer.creat": "تم إنشاؤها ب",
+  "footer.by": "من قبل حلوس يحيى"
+}

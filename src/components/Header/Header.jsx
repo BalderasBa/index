@@ -1,6 +1,7 @@
 import { header } from '../../data'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const { homepage, title } = header

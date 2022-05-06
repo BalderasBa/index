@@ -6,6 +6,9 @@ import CloseIcon from "@material-ui/icons/Close";
 import { ThemeContext } from "../../contexts/theme";
 import { projects, skills, contact } from "../../data";
 import "./Navbar.css";
+import Langue from "../langue/Langue";
+import { useTranslation } from "react-i18next";
+
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
@@ -72,6 +75,7 @@ const Navbar = () => {
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
+      <Langue/>
     </nav>
   );
 };

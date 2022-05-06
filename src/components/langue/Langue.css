@@ -1,0 +1,20 @@
+.langue {
+  display: flex;
+  background-color: var(--clr-primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.langue select {
+  background-color: transparent;
+  color: var(--clr-bg-alt);
+  font-size: 14px;
+  font-weight: bold;
+}
+.langue option {
+  color: var(--clr-primary);
+}
+.langue .lng {
+  color: var(--clr-bg-alt);
+}

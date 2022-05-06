@@ -21,14 +21,6 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <Facebook />
-            <h4>Messenger</h4>
-            <h5>Balderas</h5>
-            <a className="btn btn--outline" href={`${contact.email}`} target="_blank">
-              Send a Message
-            </a>
-          </article>
-          <article className="contact__option">
             <CallSharp />
             <h4>Whatsapp</h4>
             <h5>+213 776920565</h5>

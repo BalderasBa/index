@@ -1,0 +1,26 @@
+{
+    "navbar.logo": "HY.",
+    "navbar.skills": "Compétences",
+    "navbar.portfolio": "Portefeuille",
+    "navbar.contact": "Nous contacter",
+  
+    "about.h1": "Salut, Je suis Hallousse Yehya.",
+    "about.h2": "Un Développeur Frontend & Graphiste",
+    "about.p": "Développeur Web méticuleux avec plus de 4 ans d'expérience en front-end et une passion pour la conception de sites Web réactifs et un fervent partisan de l'approche mobile-first. Certifié W3C. Mise en place d'une nouvelle approche de site Web réactif qui a augmenté le trafic mobile.",
+  
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Nous contacter",
+    "contact.get": "Prenez contact avec nous",
+    "contact.button": "envoyer un message",
+    "contact.email": "E-mail",
+    "contact.email.adress": "hallousse.yehya@gmail.com",
+    "contact.whatsapp": "Whatsapp",
+    "contact.form.place1": "Votre nom complet",
+    "contact.form.place2": "votre@dresse.email",
+    "contact.form.place3": "Votre message",
+  
+    "footer.creat": "Créé avec",
+    "footer.by": "Par Hallousse Yehya"
+  }
+  

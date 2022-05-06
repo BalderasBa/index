@@ -1,0 +1,25 @@
+{
+  "navbar.logo": "HY.",
+  "navbar.skills": "Skills",
+  "navbar.portfolio": "Portfolio",
+  "navbar.contact": "Contact",
+
+  "about.h1": "Hi, I am Hallousse Yehya.",
+  "about.h2": "A Frontend Dev & Graphic designer.",
+  "about.p": "Meticulous web developer with over 4 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach. W3C certified. Implemented new responsive website approach which increased mobile traffic.",
+
+  "projects": "Projects",
+  "skills": "Skills",
+  "contact": "Contact us",
+  "contact.get": "get in touch",
+  "contact.button": "send a message",
+  "contact.email": "E-mail",
+  "contact.email.adress": "hallousse.yehya@gmail.com",
+  "contact.whatsapp": "Whatsapp",
+  "contact.form.place1": "Your full name",
+  "contact.form.place2": "your@ddress.email",
+  "contact.form.place3": "Your message",
+
+  "footer.creat": "Created With",
+  "footer.by": "By Hallousse Yehya"
+}
