@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <a href="#" className="link footer__link">
-        {t("footer.creat")} &#9829; By {about.name}
+      <a href="#" className="footer__link">
+        {t("footer.creat")} &#9829; {about.name && t("footer.by")} 
       </a>
     </footer>
   );

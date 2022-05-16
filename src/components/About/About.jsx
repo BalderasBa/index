@@ -3,20 +3,23 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { about } from "../../data";
 import "./About.css";
+import { YouTube } from "@material-ui/icons";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
   const { name, role, description, resume, social } = about;
+  const { t } = useTranslation();
 
   return (
     <div className="about center">
       {name && (
         <h1>
-          Hi, I am <span className="about__name">{name}.</span>
+           <span className="about__name">{t("about.name")}</span>
         </h1>
       )}
 
-      {role && <h2 className="about__role">A {role}.</h2>}
-      <p className="about__desc">{description && description}</p>
+      {role && <h2 className="about__role">{t("about.role")}</h2>}
+      <p className="about__desc">{description && t("about.desc")}</p>
 
       <div className="about__contact center">
         {resume && (
@@ -56,6 +59,15 @@ const About = () => {
                 className="link link--icon"
               >
                 <LinkedInIcon />
+              </a>
+            )}
+            {social.youtube && (
+              <a
+                href={social.youtube}
+                aria-label="youtube"
+                className="link link--icon"
+              >
+                <YouTube />
               </a>
             )}
           </>

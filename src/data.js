@@ -15,6 +15,7 @@ const about = {
     linkedin: "https://www.linkedin.com/in/yehya-hallousse-33644316a",
     github: "https://github.com/BalderasBa",
     twitter: "https://twitter.com/Ba_Lder_As",
+    youtube: "https://youtube.com",
   },
 };
 
@@ -24,7 +25,7 @@ const projects = [
 
   {
     name: "Tesla Clone",
-    description: "Description here",
+    description: "Tesla clone App using ReactJs, Styled Components and Redux/Toolkit",
     stack: ["React", "Styled Components", "Redux/Toolkit"],
     // sourceCode: "https://github.com",
     livePreview: "https://balderasba.github.io/teslaclone/",
@@ -32,7 +33,7 @@ const projects = [
   },
   {
     name: "LinkedIn Clone",
-    description: "Description here",
+    description: "LinkedIn clone React App using Styled Components and Redux",
     stack: ["React", "Styled Components", "Redux"],
     livePreview: "https://balderasba.github.io/linkedinclone/",
     backgroundImg: "https://i.ibb.co/s6BwCdT/linkedin1.jpg",
@@ -69,7 +70,8 @@ const projects = [
   },
   {
     name: "Multivendor E-commerce",
-    description: "SPMV is a full multivendor E-commerce website built with Elementor, WooCommerce, Dokan, Stripe and more other plugins and addons on WordPress CMS",
+    description:
+      "SPMV is a full multivendor E-commerce website built with Elementor, WooCommerce, Dokan, Stripe and more other plugins and addons on WordPress CMS",
     stack: ["WordPress", "WooComerce", "Elememtor", "Dokan", "..."],
     // sourceCode: "https://github.com",
     livePreview: "https://dev-yh-multivendor.pantheonsite.io/",
@@ -156,7 +158,7 @@ const skills = [
   "DOM Manipulation",
   "Clean Code",
   "DeadLine Respect",
-  "Serious, rigorous, autonomous & cooperative",
+  "Serious, Rigorous, Autonomous & Cooperative",
 ];
 
 const contact = {

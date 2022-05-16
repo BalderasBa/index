@@ -37,7 +37,7 @@ textarea {
   padding: 1.5rem;
   border-radius: 1.5rem;
   background: transparent;
-  border: 2px solid var(--clr-primary);
+  border: 1px solid var(--clr-primary);
   resize: none;
   color: var(--clr-fg-alt);
 }

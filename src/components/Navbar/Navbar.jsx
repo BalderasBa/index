@@ -6,16 +6,15 @@ import CloseIcon from "@material-ui/icons/Close";
 import { ThemeContext } from "../../contexts/theme";
 import { projects, skills, contact } from "../../data";
 import "./Navbar.css";
-import Langue from "../langue/Langue";
+import Langue from "../Langue/Langue";
 import { useTranslation } from "react-i18next";
-
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList);
-
+  const {t} = useTranslation();
   return (
     <nav className="center nav">
       <ul
@@ -29,7 +28,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Skills
+              {t("navbar.skills")}
             </a>
           </li>
         ) : null}
@@ -41,7 +40,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Portfolio
+              {t("navbar.portfolio")}
             </a>
           </li>
         ) : null}
@@ -53,7 +52,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Contact
+              {t("navbar.contact")}
             </a>
           </li>
         ) : null}
@@ -75,7 +74,7 @@ const Navbar = () => {
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
-      <Langue/>
+      <Langue />
     </nav>
   );
 };
