@@ -44,7 +44,7 @@ const projects = [
     description: "This is an E-commerce UI using React.js",
     stack: ["React", "Styled Components"],
     livePreview: "https://balderasba.github.io/react-ecommerce/",
-    backgroundImg: "https://i.ibb.co/s3kBJsb/eshop.jpg",
+    backgroundImg: "https://i.ibb.co/g4kfdzk/react-ecommerce-products.jpg",
   },
   {
     name: "Admin Dashboard",
