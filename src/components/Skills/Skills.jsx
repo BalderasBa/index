@@ -14,7 +14,7 @@ const Skills = () => {
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
+            {skill} <span data-percent>*****</span>
           </li>
         ))}
       </ul>

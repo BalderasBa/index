@@ -32,7 +32,7 @@ const Contact = () => {
             <h5>+213 776920565</h5>
             <a
               className="btn btn--outline"
-              href={`${contact.email}`}
+              href={`${contact.whatsapp}`}
               target="_blank"
             >
               {t("contact.button")}

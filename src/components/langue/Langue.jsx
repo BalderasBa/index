@@ -14,9 +14,9 @@ function Langue() {
         name=""
         id=""
         onChange={(e) => i18n.changeLanguage(e.target.value)}
-      >
-        <option class="lang-option" value="en">{t("lang.en")}</option>
-        <option class="lang-option" value="ar">{t("lang.ar")}</option>
+        >
+          <option class="lang-option" value="en">{t("lang.en")}</option>
+          <option class="lang-option" value="ar">{t("lang.ar")}</option>
         <option class="lang-option" value="fr">{t("lang.fr")}</option>
       </select>
     </div>

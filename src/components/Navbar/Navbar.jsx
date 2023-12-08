@@ -14,25 +14,13 @@ const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList);
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <nav className="center nav">
       <ul
         style={{ display: showNavList ? "flex" : null }}
         className="nav__list"
       >
-        {skills.length ? (
-          <li className="nav__list-item">
-            <a
-              href="#skills"
-              onClick={toggleNavList}
-              className="link link--nav"
-            >
-              {t("navbar.skills")}
-            </a>
-          </li>
-        ) : null}
-
         {projects.length ? (
           <li className="nav__list-item">
             <a
@@ -41,6 +29,17 @@ const Navbar = () => {
               className="link link--nav"
             >
               {t("navbar.portfolio")}
+            </a>
+          </li>
+        ) : null}
+        {skills.length ? (
+          <li className="nav__list-item">
+            <a
+              href="#skills"
+              onClick={toggleNavList}
+              className="link link--nav"
+            >
+              {t("navbar.skills")}
             </a>
           </li>
         ) : null}

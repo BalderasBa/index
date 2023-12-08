@@ -25,7 +25,8 @@ const projects = [
 
   {
     name: "Tesla Clone",
-    description: "Tesla clone App using ReactJs, Styled Components and Redux/Toolkit",
+    description:
+      "Tesla clone App using ReactJs, Styled Components and Redux/Toolkit",
     stack: ["React", "Styled Components", "Redux/Toolkit"],
     // sourceCode: "https://github.com",
     livePreview: "https://balderasba.github.io/teslaclone/",
@@ -132,33 +133,87 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  // {
+  //   name: "HTML5",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "CSS3",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "BootStrap5",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "JavaSript",
+  //   percent: "95%",
+  // },
+  // {
+  //   name: "Pug js",
+  //   percent: "80%",
+  // },
+  // {
+  //   name: "SASS",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "ES6 +",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "React",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "Redux",
+  //   percent: "90%",
+  // },
+  // {
+  //   name: "Typecript",
+  //   percent: "70%",
+  // },
+  // {
+  //   name: "Gulp",
+  //   percent: "80%",
+  // },
+  // {
+  //   name: "Git & GitHub",
+  //   percent: "75%",
+  // },
   "HTML5",
   "CSS3",
   "BootStrap5",
   "Json",
   "AJAX",
+  "Pug js",
+  "SASS",
   "JavaScript",
   "ES6",
+  "Typecript",
   "React",
   "Redux",
-  "SASS",
-  "Git & GitHub",
   "Rest API",
+  "Gulp",
+  "Git & GitHub",
   "CI/CD",
-  "Adobe Ai",
-  "Adobe Ps",
+  "E-commerce",
   "WordPress",
+  "MySQL",
+  "PHP",
   "Elementor",
   "WooComerce",
   "Dokan",
+  "Adobe Ai",
+  "Adobe Ps",
   "العربية",
   "English",
   "Français",
   "Problem Solving",
   "DOM Manipulation",
-  "Clean Code",
-  "DeadLine Respect",
-  "Serious, Rigorous, Autonomous & Cooperative",
+  // "Clean Code",
+  // "DeadLine Respect",
+  // "Serious, Rigorous, Autonomous & Cooperative",
 ];
 
 const contact = {
