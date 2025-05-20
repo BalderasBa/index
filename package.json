@@ -24,11 +24,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "start": "bun run react-scripts start",
+    "build": "bun run react-scripts build",
+    "test": "bun run react-scripts test",
+    "eject": "bun run react-scripts eject",
+    "predeploy": "bun run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -48,5 +48,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "module": "src/index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
