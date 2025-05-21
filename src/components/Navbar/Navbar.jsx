@@ -1,11 +1,11 @@
 import { useContext, useState } from "react";
-import Brightness2Icon from "@material-ui/icons/Brightness2";
-import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
-import MenuIcon from "@material-ui/icons/Menu";
-import CloseIcon from "@material-ui/icons/Close";
+// import Brightness2Icon from "@material-ui/icons/Brightness2";
+// import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
+// import MenuIcon from "@material-ui/icons/Menu";
+// import CloseIcon from "@material-ui/icons/Close";
 import { ThemeContext } from "../../contexts/theme";
 import { projects, skills, contact } from "../../data";
-import "./Navbar.css";
+// import "./Navbar.css";
 import Langue from "../langue/Langue";
 import { useTranslation } from "react-i18next";
 
@@ -63,7 +63,8 @@ const Navbar = () => {
         className="btn btn--icon nav__theme"
         aria-label="toggle theme"
       >
-        {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {/* {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />} */}
+        btn
       </button>
       <button
         type="button"
@@ -71,7 +72,8 @@ const Navbar = () => {
         className="btn btn--icon nav__hamburger"
         aria-label="toggle navigation"
       >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
+        btn
+        {/* {showNavList ? <CloseIcon /> : <MenuIcon />} */}
       </button>
       <Langue />
     </nav>

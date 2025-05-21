@@ -1,7 +1,7 @@
 import uniqid from "uniqid";
 import { projects } from "../../data";
 import ProjectContainer from "../ProjectContainer/ProjectContainer";
-import "./Portofolio.css";
+// import "./Portofolio.css";
 import { useTranslation } from "react-i18next";
 
 const Portofolio = () => {

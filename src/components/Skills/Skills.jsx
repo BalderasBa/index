@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import uniqid from 'uniqid'
 import { skills } from '../../data'
-import './Skills.css'
+// import './Skills.css'
 
 const Skills = () => {
   const { t } = useTranslation();

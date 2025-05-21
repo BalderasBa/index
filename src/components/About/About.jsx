@@ -1,9 +1,5 @@
-import Twitter  from "@material-ui/icons/Twitter";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { about } from "../../data";
-import "./About.css";
-import { YouTube } from "@material-ui/icons";
+// import "./About.css";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -14,7 +10,7 @@ const About = () => {
     <div className="about center">
       {name && (
         <h1>
-           <span className="about__name">{t("about.name")}</span>
+          <span className="about__name">{t("about.name")}</span>
         </h1>
       )}
 
@@ -38,7 +34,7 @@ const About = () => {
                 aria-label="github"
                 className="link link--icon"
               >
-                <GitHubIcon />
+                {/* <GitHubIcon /> */}
               </a>
             )}
 
@@ -48,17 +44,17 @@ const About = () => {
                 aria-label="github"
                 className="link link--icon"
               >
-                <Twitter />
+                {/* <Twitter /> */}
               </a>
             )}
-            
+
             {social.linkedin && (
               <a
                 href={social.linkedin}
                 aria-label="linkedin"
                 className="link link--icon"
               >
-                <LinkedInIcon />
+                {/* <LinkedInIcon /> */}
               </a>
             )}
             {social.youtube && (
@@ -67,7 +63,7 @@ const About = () => {
                 aria-label="youtube"
                 className="link link--icon"
               >
-                <YouTube />
+                {/* <YouTube /> */}
               </a>
             )}
           </>

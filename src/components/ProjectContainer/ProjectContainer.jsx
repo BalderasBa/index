@@ -1,11 +1,11 @@
 import uniqid from "uniqid";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LaunchIcon from "@material-ui/icons/Launch";
-import "./ProjectContainer.css";
+  // import GitHubIcon from "@material-ui/icons/GitHub";
+  // import LaunchIcon from "@material-ui/icons/Launch";
+// import "./ProjectContainer.css";
 
 const ProjectContainer = ({ project }) => (
   <div className="project">
-    <img className="back-img" src={project.backgroundImg} />
+    <img className="back-img" src={project.backgroundImg} alt={project.name} />
     <h3>{project.name}</h3>
 
     <p className="project__description">{project.description}</p>
@@ -25,7 +25,7 @@ const ProjectContainer = ({ project }) => (
         aria-label="source code"
         className="link link--icon"
       >
-        <GitHubIcon fontSize="large"/>
+        {/* <GitHubIcon fontSize="large" /> */}
       </a>
     )}
 
@@ -35,7 +35,7 @@ const ProjectContainer = ({ project }) => (
         aria-label="live preview"
         className="link link--icon"
       >
-        <LaunchIcon fontSize="large"/>
+        {/* <LaunchIcon fontSize="large" /> */}
       </a>
     )}
   </div>

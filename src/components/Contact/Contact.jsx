@@ -1,6 +1,6 @@
 import { contact } from "../../data";
-import "./Contact.css";
-import { Mail, CallSharp, Facebook } from "@material-ui/icons";
+// import "./Contact.css";
+// import { Mail, CallSharp, Facebook } from "@material-ui/icons";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
@@ -15,25 +15,27 @@ const Contact = () => {
       <div className="contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <Mail />
+            {/* <Mail /> */}
             <h4>{t("contact.email")}</h4>
             <h5>hallousse.yehya@gmail.com</h5>
             <a
               className="btn btn--outline"
               href={`${contact.email}`}
               target="_blank"
+              rel="noreferrer"
             >
               {t("contact.button")}
             </a>
           </article>
           <article className="contact__option">
-            <CallSharp />
+            {/* <CallSharp /> */}
             <h4>{t("contact.whatsapp")}</h4>
             <h5>+213 776920565</h5>
             <a
               className="btn btn--outline"
               href={`${contact.whatsapp}`}
               target="_blank"
+              rel="noreferrer"
             >
               {t("contact.button")}
             </a>
