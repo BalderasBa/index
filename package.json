@@ -1,7 +1,7 @@
 {
-  "homepage": "https://BalderasBa.github.io/index",
+  "homepage": "https://BalderasBa.github.io/",
   "name": "index",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "module": "src/index.js",
   "scripts": {

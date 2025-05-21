@@ -7,13 +7,31 @@ import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-// import './App.css'
+
+const styles = {
+  light: {
+    backgroundColor: "#fcfcfc",
+    color: "#555",
+    fontFamily: '"Poppins", sans-serif',
+    lineHeight: 1.5,
+  },
+  dark: {
+    backgroundColor: "#23283e",
+    color: "#c6c6c6",
+    fontFamily: '"Poppins", sans-serif',
+    lineHeight: 1.5,
+  },
+};
 
 const App = () => {
-  const [{ themeName }] = useContext(ThemeContext)
+  const [{ themeName }] = useContext(ThemeContext);
 
   return (
-    <div id='top' className={`${themeName} app`}>
+    <div
+      id="top"
+      className={`${themeName} app`}
+      style={themeName === "light" ? styles.light : styles.dark}
+    >
       <Header />
 
       <main>
@@ -25,7 +43,7 @@ const App = () => {
       <ScrollToTop />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App

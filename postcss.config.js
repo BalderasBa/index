@@ -1,3 +1,8 @@
+const { join } = require("path");
+
 module.exports = {
-  plugins: [require("@tailwindcss/postcss")(), require("autoprefixer")],
+  plugins: {
+    "@tailwindcss/postcss": {},
+    autoprefixer: {},
+  },
 };
