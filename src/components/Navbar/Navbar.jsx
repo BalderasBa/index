@@ -16,28 +16,30 @@ const Navbar = () => {
   const toggleNavList = () => setShowNavList(!showNavList);
   const { t } = useTranslation();
   return (
-    <nav className="center nav">
+    <nav className="flex relative gap-4 justify-between items-center">
       <ul
         style={{ display: showNavList ? "flex" : null }}
-        className="nav__list"
+        className="hidden flex-col justify-center items-center fixed inset-0 w-full h-full z-40 bg-[#fcfcfc] dark:bg-[#23283e] mr-10"
       >
         {projects.length ? (
-          <li className="nav__list-item">
+          <li className="my-2">
             <a
               href="#projects"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="capitalize font-semibold text-[#9856b0] dark:text-[#c1cfff]"
             >
               {t("navbar.portfolio")}
             </a>
           </li>
         ) : null}
         {skills.length ? (
-          <li className="nav__list-item">
+          <li className="ml-4 md:my-2">
             <a
               href="#skills"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="capitalize relative text-[#9856b0] pb-[0.3em] before:content-[''] 
+before:absolute before:bottom-0 before:h-[0.2em] before:w-0 
+before:bg-[#9856b0]  before:transition-[width]  before:duration-200  before:ease-in  hover:before:w-full"
             >
               {t("navbar.skills")}
             </a>
@@ -45,11 +47,13 @@ const Navbar = () => {
         ) : null}
 
         {contact.email ? (
-          <li className="nav__list-item">
+          <li className="ml-4 md:my-2">
             <a
               href="#contact"
               onClick={toggleNavList}
-              className="link link--nav"
+              className="capitalize relative text-[#9856b0] pb-[0.3em] before:content-[''] 
+before:absolute before:bottom-0 before:h-[0.2em] before:w-0 
+before:bg-[#9856b0]  before:transition-[width]  before:duration-200  before:ease-in  hover:before:w-full"
             >
               {t("navbar.contact")}
             </a>
@@ -60,19 +64,19 @@ const Navbar = () => {
       <button
         type="button"
         onClick={toggleTheme}
-        className="btn btn--icon nav__theme"
+        className="block text-sm font-medium uppercase bg-transparent transition-transform duration-200 ease-in-out cursor-pointer btn--icon"
         aria-label="toggle theme"
       >
         {/* {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />} */}
-        btn
+        dark/light
       </button>
       <button
         type="button"
         onClick={toggleNavList}
-        className="btn btn--icon nav__hamburger"
+        className="block z-50 text-sm font-medium uppercase bg-transparent transition-transform duration-200 ease-in-out cursor-pointer btn--icon"
         aria-label="toggle navigation"
       >
-        btn
+        menu/close
         {/* {showNavList ? <CloseIcon /> : <MenuIcon />} */}
       </button>
       <Langue />

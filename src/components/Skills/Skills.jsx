@@ -9,8 +9,8 @@ const Skills = () => {
   if (!skills.length) return null
 
   return (
-    <section className="px-4 py-12 my-8 section skills" id="skills">
-      <h2 className="mb-8 text-3xl font-bold text-center section__title">
+    <section className="px-4 py-12 my-8 skills" id="skills">
+      <h2 className="mb-8 text-3xl font-bold text-center uppercase">
         {t("skills.section")}
       </h2>
       <ul className="flex flex-wrap gap-4 justify-center p-4">

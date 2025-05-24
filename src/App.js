@@ -29,12 +29,12 @@ const App = () => {
   return (
     <div
       id="top"
-      className={`${themeName} app`}
+      className={`${themeName} font-[Poppins] text-[var(--clr-fg)] bg-[var(--clr-bg)] leading-[1.5]`}
       style={themeName === "light" ? styles.light : styles.dark}
     >
       <Header />
 
-      <main>
+      <main className="w-[95%] mx-auto mt-8">
         <About />
         <Portofolio />
         <Skills />

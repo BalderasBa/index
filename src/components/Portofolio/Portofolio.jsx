@@ -9,10 +9,10 @@ const Portofolio = () => {
   if (!projects.length) return null;
 
   return (
-    <section id="projects" className="section projects">
-      <h2 className="section__title">{t("projects.section")}</h2>
+    <section id="projects" className="mt-8 projects">
+      <h2 className="mb-8 text-center uppercase">{t("projects.section")}</h2>
 
-      <div className="projects__grid">
+      <div className="max-w-[1100px] mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <ProjectContainer key={uniqid()} project={project} />
         ))}

@@ -7,17 +7,19 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="about center">
+    <div className="flex items-center flex-col bg-[url('https://i.ibb.co/vLR2rm9/me.png')] bg-no-repeat bg-contain bg-right">
       {name && (
         <h1>
-          <span className="about__name">{t("about.name")}</span>
+          <span className="text-[#9856b0]">{t("about.name")}</span>
         </h1>
       )}
 
-      {role && <h2 className="about__role">{t("about.role")}</h2>}
-      <p className="about__desc">{description && t("about.desc")}</p>
+      {role && <h2 className="mt-4">{t("about.role")}</h2>}
+      <p className="text-base max-w-[600px]">
+        {description && t("about.desc")}
+      </p>
 
-      <div className="about__contact center">
+      <div className="flex items-center mt-[2em] leading-[2em] indent-[10px]">
         {resume && (
           <a href={resume}>
             <span type="button" className="btn btn--outline">
@@ -32,7 +34,7 @@ const About = () => {
               <a
                 href={social.github}
                 aria-label="github"
-                className="link link--icon"
+                className="relative pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[var(--clr-primary)] before:transition-[width] before:duration-200 before:ease-in hover:before:w-full text-[#555] dark:text-[#c6c6c6]"
               >
                 {/* <GitHubIcon /> */}
               </a>
@@ -42,7 +44,7 @@ const About = () => {
               <a
                 href={social.twitter}
                 aria-label="github"
-                className="link link--icon"
+                className="relative pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[var(--clr-primary)] before:transition-[width] before:duration-200 before:ease-in hover:before:w-full text-[#555] dark:text-[#c6c6c6]"
               >
                 {/* <Twitter /> */}
               </a>
@@ -52,7 +54,7 @@ const About = () => {
               <a
                 href={social.linkedin}
                 aria-label="linkedin"
-                className="link link--icon"
+                className="relative pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[var(--clr-primary)] before:transition-[width] before:duration-200 before:ease-in hover:before:w-full text-[#555] dark:text-[#c6c6c6]"
               >
                 {/* <LinkedInIcon /> */}
               </a>
@@ -61,7 +63,7 @@ const About = () => {
               <a
                 href={social.youtube}
                 aria-label="youtube"
-                className="link link--icon"
+                className="relative pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[var(--clr-primary)] before:transition-[width] before:duration-200 before:ease-in hover:before:w-full text-[#555] dark:text-[#c6c6c6]"
               >
                 {/* <YouTube /> */}
               </a>
