@@ -23,7 +23,7 @@ const ProjectContainer = ({ project }) => (
       <a
         href={project.sourceCode}
         aria-label="source code"
-        className="link link--icon"
+        className="relative text-[#9856b0] pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[#9856b0]  before:transition-[width]  before:duration-200  before:ease-in  hover:before:w-full dark:text-[#c6c6c6]"
       >
         {/* <GitHubIcon fontSize="large" /> */}
       </a>
@@ -33,7 +33,7 @@ const ProjectContainer = ({ project }) => (
       <a
         href={project.livePreview}
         aria-label="live preview"
-        className="link link--icon"
+        className="relative text-[#9856b0] pb-[0.3em] before:content-[''] before:absolute before:bottom-0 before:h-[0.2em] before:w-0 before:bg-[#9856b0]  before:transition-[width]  before:duration-200  before:ease-in  hover:before:w-full dark:text-[#c6c6c6]"
       >
         {/* <LaunchIcon fontSize="large" /> */}
       </a>
